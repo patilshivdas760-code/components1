@@ -1,0 +1,21 @@
+<p>Lorem ipsum dolor sit amet consectetur
+ 
+    {{product_name}}
+    {{product_id}}
+    adipisicing elit. Illo officiis facilis nesciunt, soluta dignissimos ex.</p>
+
+    <div [innerHTML]="product_description">  </div>
+
+
+
+    <div class="form-group">
+        <input [value] ="product_name" type="text" class="form-control">
+    </div>
+
+    <button  [disabled] ="!isformvalid " class="btn btn-primary">
+        click here
+    </button>
+
+     <hr>
+
+   <img [src]="img_src" class="rounded mx-auto d-block" alt="sorry not found ">
